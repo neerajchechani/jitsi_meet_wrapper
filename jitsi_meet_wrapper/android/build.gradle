@@ -1,6 +1,7 @@
 group 'dev.saibotma.jitsi_meet_wrapper'
 version '1.0-SNAPSHOT'
 
+
 buildscript {
     ext.kotlin_version = '1.7.10'
     repositories {
@@ -33,7 +34,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
-
+    namespace 'com.example.jitsi_meet_wrapper'
     // Required by jitsi
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
